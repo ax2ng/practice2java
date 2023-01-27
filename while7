@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class while7 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите число: ");
+        float N = scanner.nextInt();
+        int K = 1;
+        while (K*K<=N){
+            K+=1;
+        }
+        System.out.println("Результат: " + K);
+    }
+}
